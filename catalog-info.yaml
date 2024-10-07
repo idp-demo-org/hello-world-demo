@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "hello-world-demo"
+  annotations:
+    "humanitec.com/orgId": "bit"
+    "humanitec.com/appId": "hello-world-demo"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
